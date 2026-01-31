@@ -38,6 +38,9 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1; /*coloca uma "camada" na div que deixa ela em cima de outras*/
 }
 
 nav#menu ul{
